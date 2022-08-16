@@ -1,0 +1,25 @@
+{
+  "name": "express-mongo-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.ts",
+  "scripts": {
+    "build": "tsc",
+    "build:clean": "rm -rf build/",
+    "prebuild": "npm run build:clean",
+    "start": "node build/server.js"
+  },
+  "author": "soundar",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "mongoose": "^6.5.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "typescript": "^4.7.4"
+  }
+}
